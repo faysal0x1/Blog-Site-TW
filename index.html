@@ -1,58 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <!-- ========================== Font Awesome CDN =========================== -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- ========================== Font Awesome CDN =========================== -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- ============== ============== Custom Css =============== ============== -->
+    <!-- ============== ============== Custom Css =============== ============== -->
+    <link rel="stylesheet" href="output/style.css" />
+  </head>
 
-  <link rel="stylesheet" href="output/style.css" />
-</head>
+  <body class="text-gray-600">
 
-<body class="text-gray-600">
-
-  <!-- ============================= Header Part ============================= -->
-  <nav class="bg-slate-300 shadow-sm shadow-slate-300">
-    <div class="container mx-auto px-4 py-3 flex items-center">
-      <a href="">
-        <img src="img/easyshop.png" alt="Company Logo" />
-      </a>
-
-      <div class="ml-12 flex">
-        <a href="#" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
-          <span class="mr-2">
-            <i class="fas fa-home"></i>
-          </span>
-          Home
+    <!-- ============================= Header Part ============================= -->
+    <nav class="bg-slate-300 shadow-sm shadow-slate-300">
+      <div class="container mx-auto px-4 py-3 flex items-center">
+        <a href="">
+          <img src="img/easyshop.png" alt="Company Logo" />
         </a>
-      </div>
 
-      <div class="ml-12 flex">
-        <a href="#" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
-          <span class="mr-2">
-            <i class="fas fa-file-alt"></i>
-          </span>
-          About
-        </a>
-      </div>
-      <div class="ml-12 flex">
-        <a href="#" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
-          <span class="mr-2">
-            <i class="fas fa-phone"></i>
-          </span>
-          Contact
-        </a>
-      </div>
+        <div class="ml-12 flex">
+          <a href="#" class="flex items-center font-semibold text-md
+            hover:text-blue-700 transition">
+            <span class="mr-2">
+              <i class="fas fa-home"></i>
+            </span>
+            Home
+          </a>
+        </div>
 
-    </div>
-  </nav>
-</body>
+        <div class="ml-12 flex">
+          <a href="#" class="flex items-center font-semibold text-md
+            hover:text-blue-700 transition">
+            <span class="mr-2">
+              <i class="fas fa-file-alt"></i>
+            </span>
+            About
+          </a>
+        </div>
+        <div class="ml-12 flex">
+          <a href="#" class="flex items-center font-semibold text-md
+            hover:text-blue-700 transition">
+            <span class="mr-2">
+              <i class="fas fa-phone"></i>
+            </span>
+            Contact
+          </a>
+        </div>
+
+
+        <div class="relative ml-auto">
+
+          <span class="absolute top-2.5 left-3 text-sm text-graay-600">
+            <i class="fas fa-search"></i>
+          </span>
+          <input type="text" name="" id="" placeholder="Search..."
+            class="block w-full rounded-3xl pl-11 pr-2 py-2 focus:outline-none
+            bg-gray-200 text-sm text-gray-600 shadow-sm shadow-slate-300">
+        </div>
+
+        <div class="ml-5 ">
+          <a href="#" class="flex items-center font-semibold text-md
+            text-gray-900
+            hover:text-blue-700 transition">
+            <span class="mr-2 ">
+              <i class="far fa-user"></i>
+            </span>
+            Login/Register
+          </a>
+        </div>
+
+      </div>
+    </nav>
+
+    <!-- ============================= Header Part End ============================= -->
+  </body>
 
 </html>
